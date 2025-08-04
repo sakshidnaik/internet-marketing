@@ -1,18 +1,28 @@
 # Air France Advertising Campaign Analysis
 
-## Project Summary
-This project explores Air France's advertising campaigns to understand how ad spending, user engagement, and booking volumes are connected. The goal is to find ways to optimize ad spending and improve campaign performance.
-
 ## Overview
-The analysis focuses on how Air France can use its advertising budget more effectively. By looking at the relationship between the amount spent on ads, customer engagement (like clicks), and the number of bookings, this project identifies key strategies to boost results.
 
-## Problem Addressed
-The main challenge addressed in this project is determining which advertising strategies have the biggest impact on booking volumes. The goal is to identify cost-effective methods that improve ad performance and maximize the return on investment.
+This project analyzes the Air France Internet Marketing Campaign using real-world ad spend and performance data across multiple platforms (Google, Yahoo, MSN, Kayak). The goal was to optimize channel allocation, detect anomalies, and improve overall ROI through metrics analysis, classification systems, and sentiment insights.
 
-## Key Insights and Findings
-- **Ad Spend vs. Bookings**: There is a strong link between how much Air France spends on ads and the number of bookings. As ad spending increases, so do bookings, showing that the advertising budget is being used effectively.
-- **Clicks vs. Bookings**: Higher customer engagement, measured by the number of clicks, is also strongly linked to more bookings. This indicates that getting more clicks can lead to better campaign performance.
-- **Data Trends**: Using scatter plots, the project visualizes these relationships, making it easier to see how factors like ad spending and clicks contribute to successful outcomes.
+## Key Objectives
+	•	Evaluate performance metrics (click-through rates, cost-per-click, ROI) for multiple ad platforms.
+	•	Classify and rank platforms based on profitability and engagement using statistical models.
+	•	Identify abusive or negative sentiment in user reviews/comments to inform ad copy strategies.
+	•	Recommend reallocation of marketing spend to maximize profits and reduce acquisition costs.
 
-## Conclusion
-The analysis suggests that by increasing ad spend and focusing on improving engagement (such as boosting click-through rates), Air France can significantly raise the number of bookings. This data-driven approach provides valuable insights for improving future campaigns and getting the most out of marketing investments.
+## Methodology
+	•	Data Analysis: SQL + Excel for multi-channel clickstream data (CTR, CPC, conversions).
+	•	Classification System: Ranked ad platforms using profitability and performance metrics.
+	•	Sentiment Analysis: Identified abusive keywords and negative user sentiment in ad feedback.
+	•	Visualization: Built dashboards to summarize spend allocation and performance insights.
+
+## Results
+	•	Reallocated $130K from low-performing to high-performing platforms, projecting a profit lift of $8.38M.
+	•	Reduced cost per acquisition by 75% on Kayak via targeted optimization strategies.
+	•	Created a scalable ranking framework to continuously evaluate and adjust channel priorities.
+
+## Skills & Tools
+	•	SQL, Excel, Tableau – Data extraction, cleaning, visualization
+	•	Classification & Ranking Systems – Profitability-based prioritization
+	•	Sentiment Analysis – Abusive keyword detection, customer feedback analysis
+	•	Metrics Optimization – Cost-per-acquisition modeling, anomaly detection
